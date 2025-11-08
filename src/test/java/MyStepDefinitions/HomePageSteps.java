@@ -30,7 +30,7 @@ public class HomePageSteps {
     @Given("user is on the home page")
     public void user_is_on_the_home_page() {
         EdgeOptions options = new EdgeOptions();
-        System.setProperty("webdriver.edge.driver","C:\\Users\\SIMLA M\\Downloads\\edgedriver_win64 (1)\\msedgedriver.exe");
+        System.setProperty("webdriver.edge.driver","C:\\Users\\SIMLA M\\Downloads\\edgedriver_win64\\msedgedriver.exe");
         driver = new EdgeDriver(options);
         driver.get("https://demo.automationtesting.in/Index.html");
 
